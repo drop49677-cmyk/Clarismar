@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 750" fill="none">
+  <defs>
+    <linearGradient id="hbg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a2540"/>
+      <stop offset="60%" stop-color="#103a5c"/>
+      <stop offset="100%" stop-color="#1fb6c9"/>
+    </linearGradient>
+    <linearGradient id="hglass" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="rgba(255,255,255,0.55)"/>
+      <stop offset="100%" stop-color="rgba(139,232,240,0.25)"/>
+    </linearGradient>
+    <linearGradient id="hmirror" x1="50%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" stop-color="#d9f6fb"/>
+      <stop offset="50%" stop-color="#9fe3ed"/>
+      <stop offset="100%" stop-color="#5fc7d6"/>
+    </linearGradient>
+    <linearGradient id="hframe" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#caa46a"/>
+      <stop offset="100%" stop-color="#7a5a30"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="750" rx="22" fill="url(#hbg)"/>
+  <!-- soft glow -->
+  <circle cx="470" cy="140" r="150" fill="rgba(139,232,240,0.18)"/>
+  <circle cx="120" cy="600" r="170" fill="rgba(31,182,201,0.18)"/>
+  <!-- Large standing glass pane -->
+  <rect x="95" y="150" width="210" height="430" rx="6" fill="url(#hglass)" stroke="rgba(255,255,255,0.7)" stroke-width="2"/>
+  <line x1="125" y1="180" x2="175" y2="360" stroke="rgba(255,255,255,0.7)" stroke-width="3"/>
+  <line x1="145" y1="180" x2="195" y2="330" stroke="rgba(255,255,255,0.45)" stroke-width="2"/>
+  <!-- Framed mirror -->
+  <rect x="330" y="210" width="190" height="250" rx="8" fill="url(#hframe)"/>
+  <rect x="346" y="226" width="158" height="218" rx="4" fill="url(#hmirror)"/>
+  <ellipse cx="410" cy="310" rx="34" ry="48" fill="rgba(255,255,255,0.35)"/>
+  <path d="M360 235 L400 275 L360 275 Z" fill="rgba(255,255,255,0.4)"/>
+  <!-- Cut glass pieces on table -->
+  <rect x="160" y="600" width="110" height="78" rx="3" fill="rgba(173,235,242,0.55)" stroke="rgba(255,255,255,0.6)" stroke-width="2" transform="rotate(-6 215 639)"/>
+  <rect x="320" y="612" width="80" height="60" rx="3" fill="rgba(200,240,248,0.45)" stroke="rgba(255,255,255,0.5)" stroke-width="1.5" transform="rotate(7 360 642)"/>
+  <!-- glass cutter tool -->
+  <g transform="rotate(20 440 640)">
+    <rect x="432" y="590" width="14" height="95" rx="6" fill="#e8e8e8"/>
+    <rect x="430" y="585" width="18" height="16" rx="4" fill="#c0392b"/>
+    <circle cx="439" cy="688" r="7" fill="#888"/>
+  </g>
+  <!-- Title -->
+  <text x="300" y="715" text-anchor="middle" font-family="Georgia, serif" font-size="26" font-weight="bold" fill="#ffffff">Clarismar</text>
+  <text x="300" y="740" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#8be8f0">Vidrios · Espejos · Enmarcados</text>
+</svg>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" fill="none">
+  <defs>
+    <linearGradient id="f1" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#faf5ee"/><stop offset="100%" stop-color="#efe6d8"/></linearGradient>
+    <linearGradient id="ffr" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#caa46a"/><stop offset="100%" stop-color="#8B6914"/></linearGradient>
+  </defs>
+  <rect width="400" height="260" fill="url(#f1)"/>
+  <!-- framed picture -->
+  <rect x="110" y="35" width="180" height="160" rx="3" fill="url(#ffr)"/>
+  <rect x="124" y="49" width="152" height="132" rx="2" fill="#fff"/>
+  <rect x="124" y="49" width="152" height="70" fill="#87CEEB"/>
+  <circle cx="245" cy="85" r="16" fill="#FFD700" opacity="0.85"/>
+  <path d="M124 119 Q165 85 200 108 Q240 90 276 119 L276 181 L124 181 Z" fill="#3aa760" opacity="0.7"/>
+  <path d="M120 40 L145 65 L120 65 Z" fill="rgba(255,255,255,0.5)"/>
+  <!-- moulding samples -->
+  <rect x="110" y="210" width="48" height="32" rx="2" fill="#8B4513" opacity="0.8"/>
+  <rect x="170" y="210" width="48" height="32" rx="2" fill="#caa46a" opacity="0.8"/>
+  <rect x="230" y="210" width="48" height="32" rx="2" fill="#2c2c2c" opacity="0.8"/>
+  <text x="320" y="232" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#0a2540" opacity="0.6">Molduras</text>
+</svg>
