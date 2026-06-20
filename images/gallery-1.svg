@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+  <defs>
+    <linearGradient id="g1bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f0f9fb"/>
+      <stop offset="100%" stop-color="#e1f3f7"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" rx="12" fill="url(#g1bg)"/>
+  <!-- Window frame -->
+  <rect x="60" y="40" width="280" height="220" rx="4" fill="#4a4a4a"/>
+  <rect x="68" y="48" width="264" height="204" rx="2" fill="rgba(173,235,242,0.4)"/>
+  <!-- Window dividers -->
+  <line x1="200" y1="48" x2="200" y2="252" stroke="#4a4a4a" stroke-width="6"/>
+  <line x1="68" y1="150" x2="332" y2="150" stroke="#4a4a4a" stroke-width="6"/>
+  <!-- Glass reflections -->
+  <path d="M80 60 L120 100 L80 100 Z" fill="rgba(255,255,255,0.4)"/>
+  <path d="M210 60 L250 100 L210 100 Z" fill="rgba(255,255,255,0.3)"/>
+  <path d="M80 162 L110 192 L80 192 Z" fill="rgba(255,255,255,0.35)"/>
+  <!-- Label -->
+  <text x="200" y="285" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#0a2540" opacity="0.6">Ventaneria en vidrio y aluminio</text>
+</svg>
